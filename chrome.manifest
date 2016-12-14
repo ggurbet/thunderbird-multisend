@@ -1,1 +1,2 @@
+content multisend chrome/content/
 overlay chrome://messenger/content/messenger.xul chrome://multisend/content/statusbar.xul

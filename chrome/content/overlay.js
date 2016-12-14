@@ -1,14 +1,14 @@
-window.addEventListener("load", function(e) { 
-	startup(); 
+window.addEventListener("load", function(e) {
+	startup();
 }, false);
 
 window.setInterval(
 	function() {
-		startup(); 
+		startup();
 	}, 60000); //update date every minute
 
 function startup() {
-	var myPanel = document.getElementById("my-panel");
+	var myPanel = document.getElementById("multisend-panel");
 	var date = new Date();
 	var day = date.getDay();
 	var dateString = date.getFullYear() + "." + (date.getMonth()+1) + "." + date.getDate();
